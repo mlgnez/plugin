@@ -1,0 +1,16 @@
+name: Jrv1000
+version: 1
+main: plugins.jrv1000.Main
+api-version: 1.17
+authors: [ jrv1000 ]
+description: A plugin that is like an In game whitelist. When a player joins, they will not be able to move until an OP'ed player does /addPlayer [playername]. (Players can also be added from the console.)
+commands:
+  addplayer:
+    description: Add a player to the whitelist.
+    aliases: []
+  removeplayer:
+    description: Removes a player from the whitelist.
+    aliases: []
+permissions:
+  allowmove:
+    description: allows player to move
